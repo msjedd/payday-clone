@@ -1,0 +1,54 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+
+}
+body{
+	background-color: blue;
+	color: white;
+	padding: 80px;
+	height: 100vh;
+
+}
+input{
+	background-color: blue;
+	color: white;
+	width: 100%;
+	font-size: 20px;
+
+}
+#Yname{
+	border-top: none;
+	border-right: none;
+	border-left: none;
+	border-bottom: white solid 1px;
+	margin: 10px 0;
+	padding: 7px;
+}
+#email, input[type=submit]{
+	border: white solid 1px;
+	margin: 10px 0;
+	padding: 7px;
+}
+#message{
+	border: white solid 1px;
+	margin: 10px 0;
+	padding: 7px;
+	height: 200px;
+/*	text-align: none;*/
+}
+input[type=submit]{
+	border-radius: 20px;
+	background-color: turquoise;
+	margin: 10px 0;
+}
+h1{
+	text-align: center;
+	margin-top: 0;
+}
+.form{
+	text-align: left;
+	margin-top: 5px;
+}

@@ -1,0 +1,13 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	background-image: url("C:\Users\A1TUTO~1\AppData\Local\Temp\Rar$DI39.406\city.f206be7.png");
+}
+.box > img{
+	width: 20%;
+	height: 30vh;
+}

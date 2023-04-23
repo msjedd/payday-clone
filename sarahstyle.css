@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+		padding-left: 150px;
+		background-color: lightblue;
+	}
+	h1{
+		font-family: Arial;
+		font-size: 50px;
+
+	}
+    .button{
+    	display: inline-block;
+    	border: ridge;
+        border-color: grey;
+    	background-color: green;
+    	color: white;
+    	float: right;
+        font-size: 15px;
+        padding-top: 3px;
+    	height: 30px;
+        width: 60px;
+        margin-top: 20px;
+        margin-right: 40px;
+        text-align: center;
+
+    }
+    .nav li{
+    	display: inline-block;
+    	float: left;
+    	width: 40%;
+    	height: 40px;
+    	background-color: green;
+    	color: white;
+    	text-align: center;
+        padding-top: 10px;
+        margin-bottom: 40px;
+        font-family: Verdana;
+        list-style-type: none;
+    }
+  .container{
+    clear:left;
+    display: inline-block;
+    font-family: Verdana;
+  } 
+  img{
+  height: 300px; 
+  width: 300px;
+  float: left;
+  margin-right: 20px;
+  
+}
+h2, li{
+    font-family: Verdana;
+    }
+.because,.also,.video{
+    margin-top: 30px;
+}
+.vid{
+    margin: 10px solid black ;
+}

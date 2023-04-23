@@ -1,0 +1,37 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.container{
+	background-color: turquoise;
+	padding: 40px 100px;
+	height:500px;
+}
+.main{
+	padding: 40px 60px;
+	border: 1px solid turquoise;
+	background-color: white;
+}
+input{
+	width: 100%;
+	padding: 15px;
+	margin: 15px;
+}
+input[type=submit]{
+	background-color: turquoise;
+	border: 1px solid turquoise;
+	color: white;
+}
+h1{
+	color: turquoise;
+	text-align: left;
+	margin: 10px;
+}
+body{
+	padding: 60px;
+/*	background-color: purple;*/
+	background-image: linear-gradient(to bottom right, purple , cyan , red);
+	background-repeat: no-repeat;
+	bachground-size: cover;
+	height: 100vh;

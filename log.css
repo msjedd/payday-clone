@@ -1,0 +1,46 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: green;
+  padding: 80px;
+  background-image: linear-gradient(to bottom right, purple , cyan , red);
+  background-repeat: no-repeat;
+  bachground-size: cover;
+  height: 100vh;
+}
+.flex-container {
+  display: flex;
+  background-color: turquoise;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  padding: 80px;
+}
+
+.flex-container > div {
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+  font-size: 15px;
+  width: 400px;
+  height: 60vh;
+}
+input[type=submit]{
+  background-color: turquoise;
+  border: 1px solid turquoise;
+  color: white;
+/*  width: 80%;*/
+}
+h1{
+  color: turquoise;
+  text-align: center;
+  margin: 10px;
+}
+input{
+  width: 85%;
+  padding: 15px;
+  margin: 15px;
+}

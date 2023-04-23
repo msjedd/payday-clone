@@ -1,0 +1,174 @@
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+
+.container{
+/*	background-color: black;*/
+/*	color: white;*/
+background: linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("https://media.architecturaldigest.com/photos/58d5509dbefdff5c42410b68/master/w_1600%2Cc_limit/modern-office-library-boyddesign-malibu-california-201106_1000-watermarked.jpg");
+/*background-image: url("https://media.architecturaldigest.com/photos/58d5509dbefdff5c42410b68/master/w_1600%2Cc_limit/modern-office-library-boyddesign-malibu-california-201106_1000-watermarked.jpg");*/
+height: 500px;
+width: 100vw;
+/*text-align: left;*/
+padding-top: 200px;
+padding-left: 50px;
+}
+
+.buttons > button{
+	display: flex;
+	flex-direction: row;
+	border-radius: 25px;
+	width: 150px;
+	height: 50px;
+	margin: 20px;
+	padding: 10px;
+	border: white 2px solid;
+}
+
+.buttons{
+	display: flex;
+	flex-direction: row;
+}
+
+.one > img{
+	width: 15px;
+	height: 15px;
+	text-align: left;
+	
+}
+
+h4{
+	text-align: center;
+}
+.two > img{
+	width: 15px;
+	height: 15px;
+	text-align: left;
+
+}
+
+.droplist {
+  position: relative;
+  display: inline-block;
+}
+
+.list {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.droplist:hover .list {
+  display: block;
+}
+
+
+.container > h1{
+  color: #ffffff;
+}
+
+h1{
+/*	font-size: 60px;*/
+	font-family: 'Alfa Slab One', cursive;
+	font-weight: 400;
+}
+
+span{
+	font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+  .nav-container{
+  	display: flex;
+  	justify-content: space-between;
+  	padding: 10px 50px;
+  }
+
+  .nav-list > ul{
+  	list-style-type: none;
+
+  }
+  .nav-list ul li{
+  	display: inline-block;
+  	margin: 0 10px;
+  } 
+
+  .buttons > div{
+  	display: flex;
+  	border: 1px solid white;
+  	border-radius: 25px;
+  	font-size: 15px;
+  }
+  .buttons > .inn{
+  	display: flex;
+  	flex-direction: column;
+  }
+
+
+/* start section 2*/
+  .second{
+  	height: 500px;
+  	background-color: #ffffff;
+  	padding: 30px;
+  }
+
+  .green{
+  	background-color: green;
+  	display: flex;
+  	padding: 50px;
+  	color: #ffffff;
+  }
+
+  .inside{
+  	height: 500px;
+  	background-image: url(C:\Users\A1 Tutor\Downloads\phone bg (3).png) ;
+  }
+
+
+  .inside < h1{
+  	font-size: 20px;
+  	margin-top: 100px;
+/*  	flex-grow: 2;*/
+
+  }
+  .inside > button{
+  	border-radius: 7px;
+  	border: 1px solid #ffffff;
+  	padding: 10px;
+  	font-size: 3px;
+  	margin-top: 30px;
+  }
+
+ /* .imagebox{
+  	margin-top: -100;
+  	border: 1px solid white;
+  	text-align: right;
+  	height: 500px;
+/*  	flex-grow: 1;*/*/
+  }
+
+/*  end section 2*/
+
+
+.third{
+	background-color: ffff00;
+	height: 20vh;
+}
+
+.picbox > img{
+	height: 100px;
+
+}

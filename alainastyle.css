@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+
+}
+.purplehead{
+    background-color: purple;
+    height: 250px;
+}
+body{
+    background-color: #ddd;
+}
+.imagebox{
+    text-align: center;
+    margin-top: -75px;
+    font-family: verdana;
+}
+.imagebox img{
+    width: 150px;
+    border-radius: 50%;
+    border: 5px solid white;
+    height: 150px;
+    margin-bottom: 40px;
+   
+}
+h2{
+    color: red;
+}
+button{
+    border-radius: 25px;
+    background-color: purple;
+    color: white;
+    width: 200px;
+    margin: 30px;
+    padding: 10px;
+    border: solid purple 1px;
+    font-size: 15px;
+}

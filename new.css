@@ -1,0 +1,99 @@
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+.nav{
+	display: flex;
+	background-color: black;
+	color: grey;
+	flex-direction: row;
+	width: 100vw;
+}
+.nav > div {
+  background-color: #f1f1f1;
+  margin: 10px;
+  padding: 10px;
+  font-size: 20px;
+  width: 20vw;
+  border-radius: 25px;
+  text-align: center;
+}
+/*.navlist:link{
+	background-color: green;
+}
+.navlist:visited{
+	color: yellowgreen;
+}*/
+.navlist:hover{
+	color: blue;
+}
+.navlist:active{
+background-color: blueviolet;
+}
+.container{
+	display: flex;
+	flex-direction: column;
+}
+.container > img{
+	width: 200px;
+	height: 200px;
+	/*position: relative;
+	animation: elephant;
+	animation-duration: 5s;
+	animation-duration: alternate;
+}*/
+/*@keyframes elephant{
+	0% {left: 0px; top: 0px}
+/*	25% {left: 200px; top: 0px}*/
+	50% {left: 200px; top: 200px}
+/*	75% {left: 0px; top: 200px}*/
+	100% {left: 0px; top: 0px}
+}*/
+.drop{
+	position: relative;
+	display: inline-block;
+}
+.droplist{
+	display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+.droplist a{
+	color: green;
+	display: block;
+	text-decoration: none;
+	border-radius: 20px;
+	width: 15vw;
+}
+.droplist a:hover{
+	background-color: black;
+}
+.drop:hover .droplist{
+	display: block;
+}
+.container > h1{
+	width: 100vw;
+    height: 50px;
+    background: aqua;
+/*    transition: width 2s, height 2s, transform 2s;*/
+    text-align: center;
+    color: blueviolet;
+}
+/*.container > h1:hover{
+	/*width: 300px;
+    height: 300px*/;
+/*    transform: scale(0.5, 0.5);*/
+}
+*/
+.image{
+	background: url("https://cdn.pixabay.com/photo/2019/02/09/12/49/elephant-3985060_1280.png") no-repeat center;
+	background-size: cover;
+	height: 80vh;
+	position: relative;
+}
+.text{
+	text-align: right;
+	position: absolute;
+
+}
